@@ -1,15 +1,15 @@
 # IoC + AOP
 
-#### ChainofResponsibility
+### ChainofResponsibility
 How to build middleware pipeline
 
-#### CircularReference
+### CircularReference
 ChickenService and EggService is using constructor dependency injection
 This will cause throwing runtime error: circular reference.
 
 **Question**: How to create IoC container to enable other DI other than via constructor?
 
-#### MyIoC
+### MyIoC
 
 **MyContainerV0**
 

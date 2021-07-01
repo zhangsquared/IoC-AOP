@@ -23,10 +23,5 @@ namespace ChainofResponsibility
 
             Console.Read();
         }
-
-        
-
-        
-    
-}
+    }
 }

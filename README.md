@@ -7,12 +7,15 @@ The intent of the Builder design pattern is to separate the construction of a co
 It is one of the Gang of Four design patterns.
 
 **Method 1**
+
 Vanilla method using overloaded constructors
 
 **Method 2**
+
 Factory design pattern
 
 **Method 3**
+
 Builder design pattern
 
 ## Chain of Responsibility

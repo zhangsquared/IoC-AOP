@@ -8,15 +8,15 @@ It is one of the Gang of Four design patterns.
 
 **Method 1**
 
-Vanilla method using overloaded constructors
+>Vanilla method using overloaded constructors
 
 **Method 2**
 
-Factory design pattern
+>Factory design pattern
 
 **Method 3**
 
-Builder design pattern
+>Builder design pattern
 
 ## Chain of Responsibility
 How to build middleware pipeline

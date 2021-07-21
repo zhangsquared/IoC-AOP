@@ -26,7 +26,7 @@ namespace CircularReference
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped(typeof(IChickenService), typeof(ChickenService));
+            services.AddScoped<IChickenService, ChickenService>();
             services.AddScoped(typeof(IEggService), typeof(EggService)); // runtime error: circular reference
 
             services.AddControllers();
